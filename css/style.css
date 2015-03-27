@@ -1,0 +1,173 @@
+body,html {
+	font-family: arial;
+	background-color: #000;
+	overflow: hidden;
+}
+#content {
+	border: 1px solid #3d3d3d;
+	background: url(../images/moab_bg.jpg);
+	width: 939px;
+	height: 704px;
+	margin: 0 auto;
+}
+#panel {
+	width: 880px;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+}
+#panelbox {
+	background: url(../images/bggallery.png);
+	margin-top: 75px;
+	border: 2px solid #f49500;
+}
+#topsection {
+	/*border: 1px solid #3d3d3d;*/
+	padding: 3px;
+}
+#panel img {
+	cursor: pointer;
+	width: 170px;
+	height: 120px;
+	margin: 10px;
+	border: 3px solid #e1dfda;
+	-moz-box-shadow:    3px 3px 3px 0px #000;
+	-webkit-box-shadow: 3px 3px 3px 0px #000;
+	box-shadow:         3px 3px 3px 0px #000;
+}
+#panel .section {
+	width: 880px;
+	height: 200px;
+	text-align: center;
+	position: relative;
+}
+#panel #bgs {
+	width: 95%;
+	height:95%;
+	margin-left: 15px;
+	margin-top: 15px;
+	background-color: #121212;
+}
+.bg {
+	float: left;
+}
+#panel input {
+	margin: 5px;
+}
+#panelbox {
+	width: 100%;
+}
+#cleared {
+	clear: both;
+}
+#myCanvas {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 100px;
+	margin-right: 100px;
+	display: none;
+}
+#panel .title {
+	font-family: segoe;
+	font-size: 14pt;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	font-weight: bold;
+	background-color: #ffd700;
+	color: #CC3300;
+}
+.input {
+
+}
+#uploadForm {
+	float: left;
+	text-align: center;
+	margin-left: 50px;
+}
+#messageForm {
+	float: left;
+	margin-left: 45px;
+	margin-top: 15px;
+}
+#previewbox {
+	display: none;
+	background-color: #000;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	-webkit-opacity: 0.9;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	cursor: pointer;
+}
+#mygif {
+	display: none;
+	height: 540px;
+    left: 15%;
+    top: 10px;
+    position: fixed;
+    width: 720px;
+    z-index: 999;
+}
+.spacer {
+	height: 50px;
+	clear: both;
+}
+#message {
+	border: 3px solid #9B9B9C;
+	padding: 10px;
+	font-size: 16px;
+	font-family: segoe;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	height: 90px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+h2 {
+	color: #fff;
+}
+.menu {
+	margin: 0 auto;
+	width: 95%;
+	height: 165px;
+	text-align: center;
+	float: right;
+	display: inline-block;
+}
+.menu img {
+	cursor: pointer;
+	vertical-align: top;
+}
+#fblike {
+   /* left: 115px;
+    position: absolute;
+    top: 225px;*/
+}
+#invite {
+   /* left: 111px;
+    position: absolute;
+    top: 250px;
+	cursor: pointer;*/
+}
+
+#fblike, #invite {
+	width: 50px;
+	float: left;
+}
+#fb-buttons {
+	width: 100px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}

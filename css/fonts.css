@@ -1,0 +1,103 @@
+/*LEVIBRUSH*/
+@font-face {
+    font-family: 'levibrush';
+    src: url('../fonts/levibrush-webfont.eot');
+    src: url('../fonts/levibrush-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/levibrush-webfont.woff2') format('woff2'),
+         url('../fonts/levibrush-webfont.woff') format('woff'),
+         url('../fonts/levibrush-webfont.ttf') format('truetype'),
+         url('../fonts/levibrush-webfont.svg#segoe_printregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'levibrush';
+		src: url('../fonts/levibrush-webfont.eot');
+		src: url('../fonts/levibrush-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/levibrush-webfont.woff2') format('woff2'),
+			 url('../fonts/levibrush-webfont.woff') format('woff'),
+			 url('../fonts/levibrush-webfont.ttf') format('truetype'),
+			 url('../fonts/levibrush-webfont.svg#segoe_printregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+    }
+}
+
+/*LUCIDA FAX*/
+@font-face {
+    font-family: 'lucida fax';
+    src: url('../fonts/Lucida Fax Regular.eot');
+    src: url('../fonts/Lucida Fax Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lucida Fax Regular.woff2') format('woff2'),
+         url('../fonts/Lucida Fax Regular.woff') format('woff'),
+         url('../fonts/Lucida Fax Regular.ttf') format('truetype'),
+         url('../fonts/Lucida Fax Regular.svg#segoe_printregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'lucida fax';
+		src: url('../fonts/Lucida Fax Regular.eot');
+		src: url('../fonts/Lucida Fax Regular.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/Lucida Fax Regular.woff2') format('woff2'),
+			 url('../fonts/Lucida Fax Regular.woff') format('woff'),
+			 url('../fonts/Lucida Fax Regular.ttf') format('truetype'),
+			 url('../fonts/Lucida Fax Regular.svg#segoe_printregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+    }
+}
+
+/* SEGOE */
+@font-face {
+    font-family: 'segoe';
+    src: url('../fonts/segoepr-webfont.eot');
+    src: url('../fonts/segoepr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/segoepr-webfont.woff2') format('woff2'),
+         url('../fonts/segoepr-webfont.woff') format('woff'),
+         url('../fonts/segoepr-webfont.ttf') format('truetype'),
+         url('../fonts/segoepr-webfont.svg#segoe_printregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'segoe';
+		src: url('../fonts/segoepr-webfont.eot');
+		src: url('../fonts/segoepr-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/segoepr-webfont.woff2') format('woff2'),
+			 url('../fonts/segoepr-webfont.woff') format('woff'),
+			 url('../fonts/segoepr-webfont.ttf') format('truetype'),
+			 url('../fonts/segoepr-webfont.svg#segoe_printregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+    }
+}
+
+/* NOTERA */
+@font-face {
+    font-family: 'notera';
+    src: url('../fonts/notera-webfont.eot');
+    src: url('../fonts/notera-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notera-webfont.woff2') format('woff2'),
+         url('../fonts/notera-webfont.woff') format('woff'),
+         url('../fonts/notera-webfont.ttf') format('truetype'),
+         url('../fonts/notera-webfont.svg#segoe_printregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'notera';
+		src: url('../fonts/notera-webfont.eot');
+		src: url('../fonts/notera-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/notera-webfont.woff2') format('woff2'),
+			 url('../fonts/notera-webfont.woff') format('woff'),
+			 url('../fonts/notera-webfont.ttf') format('truetype'),
+			 url('../fonts/notera-webfont.svg#segoe_printregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+    }
+}

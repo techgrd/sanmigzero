@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'segoe';
+    src: url('../fonts/segoepr-webfont.eot');
+    src: url('../fonts/segoepr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/segoepr-webfont.woff2') format('woff2'),
+         url('../fonts/segoepr-webfont.woff') format('woff'),
+         url('../fonts/segoepr-webfont.ttf') format('truetype'),
+         url('../fonts/segoepr-webfont.svg#segoe_printregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'segoe';
+		src: url('../fonts/segoepr-webfont.eot');
+		src: url('../fonts/segoepr-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/segoepr-webfont.woff2') format('woff2'),
+			 url('../fonts/segoepr-webfont.woff') format('woff'),
+			 url('../fonts/segoepr-webfont.ttf') format('truetype'),
+			 url('../fonts/segoepr-webfont.svg#segoe_printregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+    }
+}
+body, html {
+	width: 100%;
+	overflow: hidden;
+	font-family: tahoma;
+}
+#mycontent {
+	width: 720px;
+	height: 540px;
+	margin: 0 auto;
+}
+#mycanvas {
+	background: url(../images/backgrounds/1.jpg);
+	width: 720px;
+	height: 540px;
+	margin: 0 auto;
+	border: 3px solid #000;
+	z-index: 0;
+	position: relative;
+}
+#mybeer {
+	margin-left: 60px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+#profilepic {
+	border: 1px solid #fff;
+	background-color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 100px;
+	margin-top: 70px;
+	text-align: center;
+	display: none;
+	z-index: 2;
+}
+#mytext {
+	font-family: 'segoe',tahoma,sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	/*border: 1px dashed #3d3d3d;*/
+	width: 140px;
+	height: 280px;
+	z-index: 2;
+	color: #B87D20;
+	opacity: 0.7;
+	-moz-opacity: 0.4;
+	-webkit-opacity: 0.4;
+	text-align: center;
+	-ms-transform: rotate(-6deg); /* IE 9 */
+    -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+    transform: rotate(-6deg);
+	word-wrap: break-word;
+	hyphens: auto;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 15px;
+	margin-left: 95px; 
+}
+#cleared {
+	clear: both;
+}
